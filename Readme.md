@@ -4,12 +4,8 @@
 
 Medbary is created with purpose to help common man being able to know more about their medication by scanning the medicine's barcode.
 
----------------------------------------------------------------
-
 ## Technical Guide ##
 **Installing [PYZBAR](https://pypi.org/project/pyzbar/) :**
 ```bash
 pip install pyzbar
 ```
-
--yet to be completed
