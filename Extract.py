@@ -28,7 +28,7 @@ while ret:
     ret, frame = cap.read()
     frame, barcode = read_barcodes(frame)
     cv2.imshow('Barcode/QR code reader', frame)
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    if cv2.waitKey(1) & 0xFF == ord('z'):
         break   
 cap.release()
 cv2.destroyAllWindows()
